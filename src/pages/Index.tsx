@@ -123,7 +123,7 @@ const Index = () => {
           </div>
 
           {/* Download CV Button */}
-          <a href="/Shiva-karthik-y.pdf" download>
+          <a href="/Shiva_Karthik_Y_CV.pdf" download>
             <Button size="lg" className="shadow-glow animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-700">
               <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
@@ -140,7 +140,30 @@ const Index = () => {
           <h2 className="text-4xl font-bold mb-12 text-center">Professional Experience</h2>
           
           <div className="space-y-12">
-            {/* WondermentApps */}
+            {/* Web Synergies */}
+            <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-semibold text-primary mb-2">Senior Software Engineer</h3>
+                  <p className="text-lg text-foreground">Web Synergies</p>
+                </div>
+                <span className="text-muted-foreground mt-2 md:mt-0">Jun 2024 - Present</span>
+              </div>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">▹</span>
+                  <span>•	Designed FE architecture (module structure, server-state caching, state orchestration, error boundaries, i18n hooks).</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">▹</span>
+                  <span>•	Built reusable UI primitives & feature modules: high-density tables, charts, filter panels, form engine, export & audit trails.</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">▹</span>
+                  <span>•	Implemented React Query for server-state and Redux-Saga for long-running workflows; standardized Axios clients & typed API models.</span>
+                </li>
+              </ul>
+            </Card>
             <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div>
@@ -161,6 +184,10 @@ const Index = () => {
                 <li className="flex items-start">
                   <span className="text-primary mr-2">▹</span>
                   <span>Successfully configured and optimized the entire project environment, seamlessly integrating essential tools and libraries to enhance performance</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">▹</span>
+                  <span>Delivered performance baselines: DataGrid virtualization, suspense-style loading, code-splitting, memoized selectors and list rendering.</span>
                 </li>
               </ul>
             </Card>
