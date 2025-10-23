@@ -9,7 +9,6 @@ export default defineConfig(({ command, mode }) => ({
     host: "::",
     port: 8080,
   },
-  base: command === 'build' ? '/shiva-karthik-y.github.io/' : '/',
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   // build: { outDir: 'docs' },
   resolve: {
