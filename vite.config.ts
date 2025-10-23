@@ -11,6 +11,7 @@ export default defineConfig(({ command, mode }) => ({
   },
   base: command === 'build' ? '/shiva-karthik-y.github.io/' : '/',
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
+  build: { outDir: 'docs' },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
