@@ -62,12 +62,12 @@ const Index = () => {
             Shiva Karthik Y
           </h1>
           <h2 className="text-2xl md:text-3xl text-muted-foreground mb-6 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150">
-            Senior Software Engineer (Front End)
+            Senior Front-End Engineer (React • TypeScript • MUI)
           </h2>
           <p className="text-lg text-muted-foreground leading-relaxed mb-8 animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">
-            Results-driven Frontend Developer with 7 years of experience in creating innovative & visually appealing web applications 
-            by seamlessly integrating design aesthetics with programming proficiency. Adept at translating design concepts into seamless 
-            & responsive user interfaces with proven expertise in the latest frontend technologies.
+            Front-end engineer with 8+ years building data-intensive apps in React, TypeScript, MUI, Redux-Saga, and React Query. 
+            Known for launching greenfield products as a solo FE owner, partnering tightly with backend and business stakeholders, 
+            and turning fragmented legacy tools into fast, cohesive internal platforms with measurable productivity gains.
           </p>
 
           {/* Social Links */}
@@ -144,50 +144,91 @@ const Index = () => {
             <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-semibold text-primary mb-2">Senior Software Engineer</h3>
-                  <p className="text-lg text-foreground">Web Synergies</p>
+                  <h3 className="text-2xl font-semibold text-primary mb-2">Senior Front-End Engineer</h3>
+                  <p className="text-lg text-foreground">Web Synergies - Schreiber Foods (OPERA Platform)</p>
+                  <p className="text-sm text-muted-foreground mt-1">React, TypeScript, Material UI, Redux-Saga, React Query</p>
                 </div>
-                <span className="text-muted-foreground mt-2 md:mt-0">Jun 2024 - Present</span>
+                <span className="text-muted-foreground mt-2 md:mt-0">Aug 2024 - Present</span>
               </div>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>•	Designed FE architecture (module structure, server-state caching, state orchestration, error boundaries, i18n hooks).</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>•	Built reusable UI primitives & feature modules: high-density tables, charts, filter panels, form engine, export & audit trails.</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>•	Implemented React Query for server-state and Redux-Saga for long-running workflows; standardized Axios clients & typed API models.</span>
-                </li>
-              </ul>
+              
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold text-foreground mb-2">Key Contributions</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Designed FE architecture (module structure, server-state caching, state orchestration, error boundaries, i18n hooks)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Built reusable UI primitives & feature modules: high-density tables, charts, filter panels, form engine, export & audit trails</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Implemented React Query for server-state and Redux-Saga for long-running workflows; standardized Axios clients & typed API models</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Delivered performance baselines: DataGrid virtualization, suspense-style loading, code-splitting, memoized selectors and list rendering</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className="mb-4">
+                <h4 className="text-lg font-semibold text-foreground mb-2">Impact (Measurable)</h4>
+                <ul className="space-y-2 text-muted-foreground">
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Unified 5 plants onto one web app (replacing 10+ fragmented tools/spreadsheets) → 100+ monthly active internal users across NOB/STO/TAL/TEN/CAS</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Cut report TAT from ~1 day of manual collation to &lt; 15 minutes via one-click exports and pre-filtered dashboards</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Improved page load from ~4.5s → ~2.2s (-51%) and heavy table render from &gt;1.2s → &lt;300ms using virtualization & caching</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Reduced duplicate data entry ~60% and UI-related support tickets ~35% after two release iterations (usability + validation)</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Increased data accuracy ~30% by enforcing typed forms, mandatory validations and server-side checks</span>
+                  </li>
+                  <li className="flex items-start">
+                    <span className="text-primary mr-2">▹</span>
+                    <span>Shipped v1 in 10 weeks and sustained bi-weekly releases with &lt;2% regressions using Jest/RTL smoke suites</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div>
+                <h4 className="text-lg font-semibold text-foreground mb-2">Modules</h4>
+                <p className="text-muted-foreground">AutoControl, Cleaning Registry, Diary Book, CIP (dashboards, interval timers, frequency-based polling, line-status workflows, exports)</p>
+              </div>
             </Card>
             <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div>
                   <h3 className="text-2xl font-semibold text-primary mb-2">Senior Software Engineer</h3>
                   <p className="text-lg text-foreground">WondermentApps</p>
+                  <p className="text-sm text-muted-foreground mt-1">React, Redux Toolkit, React Query, TypeScript, Tailwind CSS</p>
                 </div>
-                <span className="text-muted-foreground mt-2 md:mt-0">Jun 2024 - Present</span>
+                <span className="text-muted-foreground mt-2 md:mt-0">Jun 2024 - Aug 2024</span>
               </div>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">▹</span>
-                  <span>Spearheaded the development of a cutting-edge application, leveraging ReactJS, Redux Toolkit, TypeScript, and Tailwind CSS to create a robust and scalable architecture</span>
+                  <span>Spearheaded development of a cutting-edge application with a robust, scalable architecture to meet complex client requirements</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">▹</span>
-                  <span>Engineered and deployed critical application components, including dynamic tables, interactive charts, and user authentication forms, significantly enhancing user experience</span>
+                  <span>Engineered and deployed dynamic tables, interactive charts, and authentication forms (login/signup) to enhance UX and functionality</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">▹</span>
-                  <span>Successfully configured and optimized the entire project environment, seamlessly integrating essential tools and libraries to enhance performance</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>Delivered performance baselines: DataGrid virtualization, suspense-style loading, code-splitting, memoized selectors and list rendering.</span>
+                  <span>Configured and optimized the project environment, integrating essential tools and libraries for performance and efficient workflow</span>
                 </li>
               </ul>
             </Card>
@@ -197,47 +238,19 @@ const Index = () => {
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div>
                   <h3 className="text-2xl font-semibold text-primary mb-2">Software Engineer</h3>
-                  <p className="text-lg text-foreground">Lifesight-Moda</p>
+                  <p className="text-lg text-foreground">Lifesight - Moda</p>
+                  <p className="text-sm text-muted-foreground mt-1">React, TypeScript, SCSS, Redux-Saga, Next.js</p>
                 </div>
                 <span className="text-muted-foreground mt-2 md:mt-0">Oct 2022 - May 2024</span>
               </div>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start">
                   <span className="text-primary mr-2">▹</span>
-                  <span>Steered the development of pivotal features such as trend-line charts and cohort analyses, constructing bespoke tables with dynamic data and visuals</span>
+                  <span>Built trendline & cohort analytics and data-heavy tables; improved reliability of integrations</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-primary mr-2">▹</span>
-                  <span>Successfully established & optimized integration processes, significantly improving the application's overall functionality and performance</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>Developed and maintained robust applications using React.js, Redux-Saga, TypeScript, and SCSS, ensuring high performance and seamless user experience</span>
-                </li>
-              </ul>
-            </Card>
-
-            {/* Happay */}
-            <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
-              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
-                <div>
-                  <h3 className="text-2xl font-semibold text-primary mb-2">Software Engineer</h3>
-                  <p className="text-lg text-foreground">Happay</p>
-                </div>
-                <span className="text-muted-foreground mt-2 md:mt-0">Oct 2021 - Sep 2022</span>
-              </div>
-              <ul className="space-y-2 text-muted-foreground">
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>Developed and deployed key features, resulting in significant performance enhancements and improved user satisfaction</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>Collaborated closely with cross-functional teams to ensure seamless integration and optimal performance of frontend components</span>
-                </li>
-                <li className="flex items-start">
-                  <span className="text-primary mr-2">▹</span>
-                  <span>Conducted code reviews and provided mentorship to junior developers, fostering a culture of continuous improvement</span>
+                  <span>Drove Next.js marketing site migration and FE performance improvements</span>
                 </li>
               </ul>
             </Card>
@@ -246,10 +259,33 @@ const Index = () => {
             <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
               <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
                 <div>
-                  <h3 className="text-2xl font-semibold text-primary mb-2">Software Engineer</h3>
+                  <h3 className="text-2xl font-semibold text-primary mb-2">Front-End Engineer II</h3>
                   <p className="text-lg text-foreground">Jitfin (JiT Techlabs)</p>
+                  <p className="text-sm text-muted-foreground mt-1">React, JavaScript, Node.js</p>
                 </div>
-                <span className="text-muted-foreground mt-2 md:mt-0">2017 - 2021</span>
+                <span className="text-muted-foreground mt-2 md:mt-0">Aug 2021 - Oct 2022</span>
+              </div>
+              <ul className="space-y-2 text-muted-foreground">
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">▹</span>
+                  <span>Delivered SPA features, transactional analytics graphs, and marketing email flows</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-primary mr-2">▹</span>
+                  <span>Introduced Dockerized CI/CD and Node.js microservices for selected workloads</span>
+                </li>
+              </ul>
+            </Card>
+
+            {/* Happay */}
+            <Card className="p-6 card-gradient shadow-elegant transition-smooth hover:shadow-glow">
+              <div className="flex flex-col md:flex-row md:items-start md:justify-between mb-4">
+                <div>
+                  <h3 className="text-2xl font-semibold text-primary mb-2">Web Developer</h3>
+                  <p className="text-lg text-foreground">Happay (VA Tech Ventures)</p>
+                  <p className="text-sm text-muted-foreground mt-1">React, JavaScript, HTML5, CSS3</p>
+                </div>
+                <span className="text-muted-foreground mt-2 md:mt-0">Jun 2017 - Jul 2021</span>
               </div>
               <ul className="space-y-2 text-muted-foreground">
                 <li className="flex items-start">
