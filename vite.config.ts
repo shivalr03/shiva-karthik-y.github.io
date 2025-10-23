@@ -10,7 +10,7 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   base: '/shiva-karthik-y.github.io/',
-   build: { outDir: 'docs' }
+   build: { outDir: 'docs' },
   plugins: [react(), mode === "development" && componentTagger()].filter(Boolean),
   resolve: {
     alias: {
