@@ -1,0 +1,26 @@
+[
+  {
+    "title": "E-Commerce Platform",
+    "description": "A full-featured e-commerce platform built with React, Redux Toolkit, and TypeScript. Features include dynamic product filtering, shopping cart management, user authentication, and seamless checkout experience. Implemented performance optimizations reducing load time by 40%.",
+    "tags": ["React", "TypeScript", "Redux Toolkit", "Tailwind CSS", "Node.js"],
+    "imageUrl": "https://placehold.co/600x400/0d1117/06b6d4?text=E-Commerce+Platform",
+    "githubUrl": "https://github.com/shivalr03/ecommerce-platform",
+    "liveUrl": "https://ecommerce-demo.shiva-karthik.tech"
+  },
+  {
+    "title": "Analytics Dashboard",
+    "description": "Interactive analytics dashboard featuring real-time data visualization with custom charts and cohort analysis. Built with Next.js and integrated with multiple data sources. Includes trend-line charts, dynamic tables, and export functionality for comprehensive data analysis.",
+    "tags": ["Next.js", "Redux-Saga", "SCSS", "Chart.js", "TypeScript"],
+    "imageUrl": "https://placehold.co/600x400/0d1117/06b6d4?text=Analytics+Dashboard",
+    "githubUrl": "https://github.com/shivalr03/analytics-dashboard",
+    "liveUrl": "https://analytics-demo.shiva-karthik.tech"
+  },
+  {
+    "title": "Task Management System",
+    "description": "Collaborative task management application with drag-and-drop functionality, real-time updates, and team collaboration features. Implements complex state management and optimistic UI updates for seamless user experience.",
+    "tags": ["React", "MongoDB", "Express", "Node.js", "Socket.io"],
+    "imageUrl": "https://placehold.co/600x400/0d1117/06b6d4?text=Task+Manager",
+    "githubUrl": "https://github.com/shivalr03/task-manager",
+    "liveUrl": "https://tasks-demo.shiva-karthik.tech"
+  }
+]
